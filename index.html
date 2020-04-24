@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+  <a href="https://drive.google.com/drive/folders/18SxVOy2guEBIAq3q8OhtIBzyqhVKE9BS?fbclid=IwAR184Ee5ds0A2brZMWHoMdxIA14XkqKU30YbQ-WOaU4Z_6Wh1R0StX56QUk">BOOKS</a>
+  <a href="http://www.orgmech.co.uk/All.php?">A-Z ORGANIC REACTION</a>
+  <a href="https://testmoz.com/class/26321">Free Mock Test</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact">News</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoYpMMwv0SQk9f0FjgiZqvBnSItg8FW5Z41JjY4-nXiYXjyQ/viewform?usp=sf_link">How to Buy</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">Enter</button>  
+  <p> YOUEXAMCHEM <p/>
+<p> Mock Test for IIT-JEE,IIT-JAM & NET-JRF-GATE <p/>
+
+
+  <table>
+  <tr>
+    <th>Free Registration</th>
+    <th>Premium Registration</th>
+    
+  </tr>
+  <tr>
+    <td>Payment Not requried</td>
+    <td>100/- @ 6month(non-refundable)</td>
+   
+  </tr>
+  <tr>
+    <td>4 weakly Test Each 
+    consisting 10 questions with answer Key & Explanation</td>
+    <td>4 weakly Test Each 
+    consisting 30 questions with answer Key & Explanation</td>
+  
+  </tr>
+  <tr>
+    <td>NA</td>
+    <td>Online Classes for Tips & Tricks</td>
+  
+  </tr>
+  <tr>
+    <td>NA</td>
+    <td> One Full Test at the end of month</td>
+ 
+  </tr>
+  <tr>
+    <td>NA</td>
+    <td>Added to Our Official whatsup group for Technical help & Disscussion</td>
+    
+  <tr>
+    <td>NA</td>
+    <td onclick="location.href='yourpage.html'"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdoYpMMwv0SQk9f0FjgiZqvBnSItg8FW5Z41JjY4-nXiYXjyQ/viewform?usp=sf_link">Buy Premium</a></td>
+    
+    
+    
+    
+    
+   
+  </tr>
+   
+  </tr>
+</table>
+<p>Contact Us-youexamchem@gmail.com </p>
+<p>Step-1:pay 100/- through youexamchem@ybl & Note down the  upi transaction-id <a href="#contact">Demo</a> </p>
+<p>Step-2:Clik on the Buy premium link where you have to fill the upi transaction in the form </p>
+ 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
