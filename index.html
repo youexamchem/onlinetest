@@ -4,147 +4,87 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: "Lato", sans-serif;
+  background-image: url('https://lh3.googleusercontent.com/UDrKUakexU_9RpnxMUOKJboBSOMoqfTpDH3EpzPlfO3GAVbOi1sa3VkEOT6V-E7XYrMV8xEbfw7RbKxICWrhow0QWWm1r4AgewdjmX1VUfd3cng75PSeDYujdGtaBuDuue6CakGHM2BB2RWOUGh3O8y92I-ZAhNR1xa4LfCIqwE1o2H_kctcSgGS7icyzjSxba2WWesRC6kVOAyPV64l7fgmshsbTE4VmbenDMhs5naOKIBMcnWdPF9CB-JOwCRc3ntJ4ifCpMLpiqHYcdxsXxa4flrZTi5gBAWTImf5bes0oECH6ae0kdB74gKnIkHSZRwz-ww5Lfoj-xH4XKZgYK1YfvSQrTQdGmqNVJVmEWDtGI5FliNIsdrVMj_ShkOZG5QmudomkCTrkIqiBhipK3f5w8Tw7aDfKblxH11LilPqu_tparJw-v_tU0Er6PivUHqSRsDQ7sL9ksaAa3NDbkpDu0iP28BPa4C-crNe5lmCHNAthd_wod-bPuRjmpPWParN6s05Qxw6AvG1ithW5Wpst6FoGUXBi5AXidA6TXiAsXFinzd73P40dor6UjQ2vGxxpCiQdWmSBo-KmHB47rV6eqTkZy9tCQR9SBlDbOhFaRMnl9VxmQBQsNzM-iprBwVWgC2UmkFRqNN0_bSD_werhlapJfep_VQ65KQbyzQvjL2wj_3AxbjvcBU=w201-h221-no');
+  
+  
 }
+</style>
+<style>
 
-.sidebar {
-  height: 100%;
-  width: 0;
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
   position: fixed;
-  z-index: 1;
   top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  width: 100%;
 }
 
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+.navbar a {
+  float: left;
   display: block;
-  transition: 0.3s;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.sidebar a:hover {
-  color: #f1f1f1;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
 
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-#main {
-  transition: margin-left .5s;
+.main {
   padding: 16px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
 }
 </style>
 </head>
 <body>
-
-<div id="mySidebar" class="sidebar">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
-  <a href="https://drive.google.com/drive/folders/18SxVOy2guEBIAq3q8OhtIBzyqhVKE9BS?fbclid=IwAR184Ee5ds0A2brZMWHoMdxIA14XkqKU30YbQ-WOaU4Z_6Wh1R0StX56QUk">BOOKS</a>
-  <a href="http://www.orgmech.co.uk/All.php?">A-Z ORGANIC REACTION</a>
-  
- 
-  <a href="#contact">News</a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoYpMMwv0SQk9f0FjgiZqvBnSItg8FW5Z41JjY4-nXiYXjyQ/viewform?usp=sf_link">How to Buy</a>
-</div>
-
-<div id="main">
-  <button class="openbtn" onclick="openNav()">Enter</button>  
-  <p> YOUEXAMCHEM <p/>
-<p> Mock Test for IIT-JEE,IIT-JAM & NET-JRF-GATE <p/>
-
-
-  <table>
-  <tr>
-    <th>Free Registration</th>
-    <th>Premium Registration</th>
-    
-  </tr>
-  <tr>
-    <td>Payment Not requried</td>
-    <td>100/- @ 6month(non-refundable)</td>
-   
-  </tr>
-  <tr>
-    <td>4 weakly Test Each 
-    consisting 10 questions with answer Key & Explanation</td>
-    <td>4 weakly Test Each 
-    consisting 30 questions with answer Key & Explanation</td>
-  
-  </tr>
-  <tr>
-    <td>NA</td>
-    <td>Online Classes for Tips & Tricks</td>
-  
-  </tr>
-  <tr>
-    <td>NA</td>
-    <td> One Full Test at the end of month</td>
- 
-  </tr>
-  <tr>
-    <td>NA</td>
-    <td>Added to Our Official whatsup group for Technical help & Disscussion</td>
-    
-  <tr>
-    <td>NA</td>
-    <td onclick="location.href='yourpage.html'"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdoYpMMwv0SQk9f0FjgiZqvBnSItg8FW5Z41JjY4-nXiYXjyQ/viewform?usp=sf_link">Buy Premium</a></td>
-    
-    
-    
-    
-    
-   
-  </tr>
-   
-  </tr>
-</table>
-<p>Contact Us-youexamchem@gmail.com </p>
-
- 
-</div>
-
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e65dfaec32b5c19173a4d91/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 </script>
-   
+<!--End of Tawk.to Script-->
+
+<div class="navbar">
+  <a href="https://www.flexiquiz.com/SC/N/onlineclass">Online Class</a>
+  
+  <a href="https://youexamchem1234.000webhostapp.com/newonlinetest">Online Test</a>
+<a href="https://www.flexiquiz.com/SC/N/vnchemistry">Organic Book</a>
+<a href="https://www.flexiquiz.com/SC/N/vnchemistry123">A-Z Organic Reaction</a>
+
+</div>
+
+<div class="main">
+  
+
+</body>
+</html>
+  <p> YOUEXAMCHEM <p/>
+<h1> Watch video for  conjugate addition ( 14/03/2020) <h1/>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/KUgMSPyKNvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h1> News : <h1/>
+<marquee behavior="scroll" direction="left">Onlinetest of 21/03/2020 has been published</marquee>
+
+
+
+
+  
+
+
 </body>
 </html> 
